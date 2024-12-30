@@ -1,4 +1,5 @@
 import ContactForm from '@/components/contact-form';
+import Link from 'next/link';
 export default function Contact() {
   return (
     <main className="min-h-screen">

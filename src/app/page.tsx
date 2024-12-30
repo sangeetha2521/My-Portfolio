@@ -1,7 +1,7 @@
 import ContactForm from '@/components/contact-form';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent } from "@/components/ui/card";
 import Image from 'next/image';
+import Link from 'next/link';
 import profileImage from "../components/ui/profile.jpeg";
 export default function Home() {
   const projects = [
@@ -37,10 +37,10 @@ export default function Home() {
             <p className="text-gray-300 mb-8 text-justify">
               Experienced and accomplished software engineer with over 2+ years of expertise in full-stack development. Proven leader with a track record of guiding teams, managing complex projects, and delivering scalable applications. Skilled at prioritizing tasks, meeting deadlines, and achieving strategic objectives.
             </p>
-            <div className="space-x-4">
+            {/* <div className="space-x-4">
               <Button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900">Projects</Button>
               <Button variant="outline" className="border-yellow-400 text-yellow-400 hover:bg-yellow-400/10">LinkedIn</Button>
-            </div>
+            </div> */}
           </div>
           <div className="mt-10 md:mt-0 relative">
             <div className="absolute inset-0 bg-gradient-to-r from-yellow-400 to-yellow-500 blur-3xl opacity-20" />
