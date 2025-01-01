@@ -15,20 +15,20 @@ export default function About() {
                 <p className="text-base md:text-lg leading-relaxed mb-6">
                   Hey there! 👋
                   <br />
-                  I’m <strong>Sangeetha</strong>, a passionate Software Engineer who loves turning ideas into reality through clean, functional, and visually appealing designs.
+                  Im <strong>Sangeetha</strong>, a passionate Software Engineer who loves turning ideas into reality through clean, functional, and visually appealing designs.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed mb-6">
-                  When I’m not busy coding or brainstorming design solutions, you can find me:
+                  When Im not busy coding or brainstorming design solutions, you can find me:
                 </p>
                 <ul className="list-disc pl-5 space-y-2">
-                  <li>🎨 Doodling random sketches (and pretending I’m the next Picasso 🖌️).</li>
+                  <li>🎨 Doodling random sketches (and pretending Im the next Picasso 🖌️).</li>
                   <li>🌍 Daydreaming about my next travel destination or binge-watching sci-fi shows.</li>
                 </ul>
                 <p className="text-base md:text-lg leading-relaxed mt-6">
-                  I believe in lifelong learning, collaboration, and creating things that make people go “Wow!” 🌟 Whether it’s crafting seamless user experiences, optimizing performance, or just making things look awesome, I’m all in.
+                  I believe in lifelong learning, collaboration, and creating things that make people go “Wow!” 🌟 Whether its crafting seamless user experiences, optimizing performance, or just making things look awesome, Im all in.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed mt-6">
-                  Let’s build something amazing together—whether it's your next big project, an innovative idea, or just sharing some good vibes. 🚀
+                  Lets build something amazing together—whether it's your next big project, an innovative idea, or just sharing some good vibes. 🚀
                 </p>
                 <p className="text-base md:text-lg leading-relaxed mt-6">
                   Feel free to connect with me on
