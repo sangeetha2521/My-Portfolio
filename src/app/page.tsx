@@ -1,4 +1,3 @@
-import ContactForm from '@/components/contact-form';
 import { Card, CardContent } from "@/components/ui/card";
 import Image from 'next/image';
 import Link from 'next/link';
@@ -16,7 +15,7 @@ export default function Home() {
       title: "Konnectify",
       role: "Full stack developer",
       timeLine: "April-2022 to October-2023",
-      description: "uilt an Integration DataStore Framework using event-driven architecture, automating third-party integrations and improving efficiency.Developed REST APIs and workflows for 5+ platforms, including QuickBooks, Xero, HubSpot, Stripe, and UKG, enhancing scalability.Created a generic parser for transforming diverse data formats into usable outputs.Worked with tools like Freshdesk and Dynamics 365 and utilized Google Cloud Platform services, including App Engine, Cloud Functions, and Firebase.Note: This experience reflects progression from an internship to a full-time role as a Full-Stack Product Developer.",
+      description: "Built an Integration DataStore Framework using event-driven architecture, automating third-party integrations and improving efficiency.Developed REST APIs and workflows for 5+ platforms, including QuickBooks, Xero, HubSpot, Stripe, and UKG, enhancing scalability.Created a generic parser for transforming diverse data formats into usable outputs.Worked with tools like Freshdesk and Dynamics 365 and utilized Google Cloud Platform services, including App Engine, Cloud Functions, and Firebase.Note: This experience reflects progression from an internship to a full-time role as a Full-Stack Product Developer.",
       image: "/placeholder.svg?height=400&width=400",
     },
 
@@ -101,8 +100,8 @@ export default function Home() {
       <section className="py-20 relative overflow-hidden ">
         <div className="absolute bottom-0 w-full h-32 bg-[#FDC435] rounded-tr-[100px]" />
         <div className="container mx-auto px-6 relative">
-          <h2 className="text-4xl font-bold text-center mb-12 text-[#FDC435]">Contact Me</h2>
-          <ContactForm />
+          {/* <h2 className="text-4xl font-bold text-center mb-12 text-[#FDC435]">Contact Me</h2>
+          <ContactForm /> */}
           <div className="flex justify-center space-x-6 mt-12">
 
             <Link href="https://www.linkedin.com/in/25sangeetha/" className="text-gray-600 hover:text-[#FDC435]">

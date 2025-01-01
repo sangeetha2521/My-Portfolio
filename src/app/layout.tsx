@@ -1,14 +1,13 @@
-
+import { Link } from 'lucide-react';
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
-import Link from 'next/link';
 
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Portfolio Website',
-  description: 'A modern portfolio website',
+  description: 'A portfolio website',
 }
 
 export default function RootLayout({
@@ -24,7 +23,7 @@ export default function RootLayout({
           <div className="space-x-8">
             <Link href="/about" className="hover:text-[#FDC435]">About</Link>
             <Link href="/experience" className="hover:text-[#FDC435]">Experience</Link>
-            <Link href="/contact" className="hover:text-[#FDC435]">Contact</Link>
+            {/* <Link href="/contact" className="hover:text-[#FDC435]">Contact</Link> */}
           </div>
         </nav>
         {children}
