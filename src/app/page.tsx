@@ -34,7 +34,7 @@ export default function Home() {
               Hey!, my name is <span className="text-yellow-400">Sangeetha</span>
             </h1>
             <p className="text-gray-300 mb-8 text-justify">
-              Experienced and accomplished software engineer with over 2+ years of expertise in full-stack development. Proven leader with a track record of guiding teams, managing complex projects, and delivering scalable applications. Skilled at prioritizing tasks, meeting deadlines, and achieving strategic objectives.
+              Experienced and accomplished software engineer with over 2.8+ years of expertise in full-stack development. Proven leader with a track record of guiding teams, managing complex projects, and delivering scalable applications. Skilled at prioritizing tasks, meeting deadlines, and achieving strategic objectives.
             </p>
             {/* <div className="space-x-4">
               <Button className="bg-yellow-400 hover:bg-yellow-500 text-gray-900">Projects</Button>
