@@ -1,9 +1,10 @@
-import { Link } from 'lucide-react';
+
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Poppins } from 'next/font/google';
+import Link from 'next/link';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] })
+const poppins = Poppins({ subsets: ['latin'], weight: ['400', '500', '600', '700'] });
 
 export const metadata: Metadata = {
   title: 'Portfolio Website',
@@ -17,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-gray-900`}>
+      <body className={`${poppins.className} bg-gray-900`}>
         <nav className="flex justify-between bg-[#FDC435]  items-center p-6  w-full h-20 ">
           <Link href="/" className="text-xl font-semibold">Sangeetha Narayanasamy</Link>
           <div className="space-x-8">

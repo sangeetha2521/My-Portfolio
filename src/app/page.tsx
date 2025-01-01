@@ -31,7 +31,7 @@ export default function Home() {
           <div className="max-w-xl text-center md:text-left">
             <p className="text-yellow-400 font-medium mb-4">SOFTWARE ENGINEER</p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
-              Hello, my name is <span className="text-yellow-400">Sangeetha</span>
+              Hey!, my name is <span className="text-yellow-400">Sangeetha</span>
             </h1>
             <p className="text-gray-300 mb-8 text-justify">
               Experienced and accomplished software engineer with over 2+ years of expertise in full-stack development. Proven leader with a track record of guiding teams, managing complex projects, and delivering scalable applications. Skilled at prioritizing tasks, meeting deadlines, and achieving strategic objectives.
