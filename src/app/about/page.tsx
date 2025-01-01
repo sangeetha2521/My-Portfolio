@@ -28,7 +28,7 @@ export default function About() {
                   I believe in lifelong learning, collaboration, and creating things that make people go “Wow!” 🌟 Whether its crafting seamless user experiences, optimizing performance, or just making things look awesome, Im all in.
                 </p>
                 <p className="text-base md:text-lg leading-relaxed mt-6">
-                  Lets build something amazing together—whether it's your next big project, an innovative idea, or just sharing some good vibes. 🚀
+                  Lets build something amazing together—whether its your next big project, an innovative idea, or just sharing some good vibes. 🚀
                 </p>
                 <p className="text-base md:text-lg leading-relaxed mt-6">
                   Feel free to connect with me on
