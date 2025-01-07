@@ -23,7 +23,7 @@ export default function Experience() {
           <h2 className="text-3xl font-bold mb-10 text-center text-[#FDC435] "> Experience</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
             {projects.map((item, index) => (
-              <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+              <div key={index} className="border-2 border-[#FDC435] rounded-lg shadow-md overflow-hidden">
                 {/* <Image
                   src={`/placeholder.svg?height=250&width=400&text=Project+${item}`}
                   alt={`Project ${item.title}`}
@@ -33,7 +33,7 @@ export default function Experience() {
                 /> */}
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{item.title} -({item.timeLine})</h3>
-                  <h3 className="text-xl font-semibold mb-2">{item.role}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#FDC435]">{item.role}</h3>
 
                   <ul className="text-gray-600 text-justify mb-4 list-disc list-inside">
                     {item.description.split('.').map((point, index) => (
